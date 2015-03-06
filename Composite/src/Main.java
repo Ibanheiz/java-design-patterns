@@ -4,9 +4,9 @@ public class Main {
 	public static void main(String[] args) {
 		// Montando uma cesta básica
 		CestaBasica cestaBasica = new CestaBasica("Cesta básica da empresa");
-		Produto arroz = new Arroz("Tio João", 4.0, 1);
-		Produto feijao = new Feijao("Camil", 4.8, 1);
-		Produto macarrao = new Macarrao("Adria", 2.7, 2);
+		Arroz arroz = new Arroz("Tio João", 4.0, 1);
+		Feijao feijao = new Feijao("Camil", 4.8, 1);
+		Macarrao macarrao = new Macarrao("Adria", 2.7, 2);
 		
 		cestaBasica.addProduto(arroz);
 		cestaBasica.addProduto(feijao);
